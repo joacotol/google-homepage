@@ -7,6 +7,32 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#image img {
+    margin: auto;
+    display: block;
+}
+
+input {
+    margin: auto;
+    display: block;
+}
+
+#misc {
+    
+}
+
+#misc button {
+    overflow: 
+}
+
+#misc button #lucky {
+    margin: auto;
+    display: block;
+    float: right;
+}
+
+/** FOOTER **/
+
 #firstFooter {
     position: absolute;
     bottom: 40;
