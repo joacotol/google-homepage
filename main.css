@@ -1,0 +1,87 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#firstFooter {
+    position: absolute;
+    bottom: 40;
+    left: 0;
+    background: #f2f2f2;
+    width: 100%;
+    line-height: 20px;
+    border-top: 1px solid #e4e4e4;
+
+}
+
+#firstFooter p {
+    padding-left: 27px;
+    color: #666;
+    font-size: 15px;
+}
+
+footer {
+
+    font-size: 13px;
+    color: #666; 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #f2f2f2;
+    line-height: 20px;
+    width: 100%;
+    border-top: 1px solid #e4e4e4;
+
+
+}
+
+
+/** Left Footer **/
+#leftFooter {
+    list-style-type: none;
+    float: left;
+    padding-left: 0%;
+    
+}
+
+#leftFooter li {
+    display: inline;
+    padding-left: 27px;
+}
+
+#leftFooter a {
+    text-decoration: none;
+    color: #666; 
+}
+
+#leftFooter a:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+/** Right Footer **/
+#rightFooter {
+    list-style-type: none;
+    float: right;
+    padding-right: 40px;
+}
+
+#rightFooter li {
+    display: inline;
+    padding-left: 27px;
+}
+
+#rightFooter a {
+    text-decoration: none;
+    color: #666; 
+}
+
+
+#rightFooter a:hover {
+    color: #333;
+    text-decoration: underline;
+}
