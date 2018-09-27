@@ -7,6 +7,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    color: #222;
 } 
 
 /** NAV BAR **/
@@ -90,7 +91,7 @@ nav li a:hover {
     top: 90px;
 }
 
-input {
+#searchBar input {
     margin: auto;  
     height: 44px;
     width: 584px;
@@ -103,11 +104,11 @@ input {
 
 }
 
-input:hover {
+#searchBar input:hover {
     box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.08);
 }
 
-input:focus {
+#searchBar input:focus {
     box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.08);
 }
 
@@ -115,11 +116,52 @@ input:focus {
     
     margin: 0 auto;
     text-align: center;
+    padding-top: 18px;
 
+}
+
+#misc input {
+    height: 36px;
+    line-height: 27px;
+    background-image: -moz-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+}
+
+#misc input:hover {
+    background-image: -moz-linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    color: #222;    
 }
 
 #french {
     text-align: center;
+}
+
+#french p {
+    line-height: 28px;
+    display: inline-block;
+    font-size: small;
+}
+
+#french a {
+    color: #1a0dab;
+    text-decoration: none;
+    padding: 0 3px;
+}
+
+#french a:hover {
+    text-decoration: underline;
 }
 
 /** FOOTER **/
